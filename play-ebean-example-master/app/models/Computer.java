@@ -32,6 +32,8 @@ public class Computer extends Model {
     @ManyToOne
     public Company company;
     
+    
+    
     /**
      * Generic query helper for entity Computer with id Long
      */

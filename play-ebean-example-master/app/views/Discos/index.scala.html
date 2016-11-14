@@ -1,0 +1,32 @@
+
+
+
+@main("Crear nuevo"){
+	
+	@form(routes.HomeController.save()) {
+		<table>
+			<caption>Libros</caption>
+			<thead>
+				<tr>
+					<th>Crea:</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Dato1:</td>
+					<td>
+						<input type="text" name='dato1' value="" placeholder="dato1" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Dato2:</td>
+					<td><input type="text"  name='deto2' value="" placeholder="deto2" required></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="" value="Guardar"></td>
+				</tr>
+			</tbody>
+		</table>
+	}
+	
+}
