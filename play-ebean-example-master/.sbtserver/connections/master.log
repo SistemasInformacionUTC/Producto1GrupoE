@@ -1,0 +1,8 @@
+New log file opened at Mon Nov 14 15:07:49 CET 2016 by 1560@Jessica-PC
+Taking next connection to: 61499
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 1560@Jessica-PC logs at Mon Nov 14 15:13:33 CET 2016, goodbye.
