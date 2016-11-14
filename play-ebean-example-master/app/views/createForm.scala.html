@@ -14,6 +14,7 @@
             @b3.text(computerForm("name"), '_label -> "Computer name", '_help -> "")
             @b3.date(computerForm("introduced"), '_label -> "Introduced date", '_help -> "")
             @b3.date(computerForm("discontinued"), '_label -> "Discontinued date", '_help -> "")
+            @b3.date(computerForm("mouse"), '_label -> "Mouse date", '_help -> "")
 
             @b3.select(
                 computerForm("company.id"), 
@@ -21,6 +22,10 @@
                 '_label -> "Company", '_default -> "-- Choose a company --",
                 '_showConstraints -> false
             )
+            
+            
+            
+         
         </fieldset>
         
         <div class="actions">
