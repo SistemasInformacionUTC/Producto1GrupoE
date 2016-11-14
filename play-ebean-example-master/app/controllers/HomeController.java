@@ -14,7 +14,7 @@ import javax.persistence.PersistenceException;
 /**
  * Manage a database of computers
  */
-public class HomeController  extends ddddggggController {
+public class HomeController  extends Controller {
 
     private FormFactory formFactory;
 

@@ -21,11 +21,10 @@ public class Company extends com.avaje.ebean.Model {
     
     @Constraints.Required
     public String name;
-    public 
     /**
      * Generic query helper for entity Company with id Long
      */
-    public static Find<Long,Company> find = new Find<Long,Company>(){};
+    public static Find<Long,Company> find= new Find<Long,Company>(){};
 
     public static Map<String,String> options() {
         LinkedHashMap<String,String> options = new LinkedHashMap<String,String>();

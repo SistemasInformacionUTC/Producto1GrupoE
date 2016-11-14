@@ -14,11 +14,19 @@
             @b3.text(computerForm("name"), '_label -> "Computer name", '_help -> "")
             @b3.date(computerForm("introduced"), '_label -> "Introduced date", '_help -> "")
             @b3.date(computerForm("discontinued"), '_label -> "Discontinued date", '_help -> "")
+             @b3.date(tecladoForm("discontinued"), '_label -> "Discontinued date", '_help -> "")
+             
 
             @b3.select(
                 computerForm("company.id"), 
                 options(Company.options), 
                 '_label -> "Company", '_default -> "-- Choose a company --",
+                '_showConstraints -> false
+                
+                 @b3.select(
+                tecladoForm("teclado.id"), 
+                options(Teclado.options), 
+                '_label -> "Teclado", '_default -> "-- Choose a teclado --",
                 '_showConstraints -> false
             )
         </fieldset>
