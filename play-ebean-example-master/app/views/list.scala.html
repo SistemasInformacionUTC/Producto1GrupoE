@@ -70,7 +70,9 @@
                     @header("name", "Computer name")
                     @header("introduced", "Introduced")
                     @header("discontinued", "Discontinued")
+                     @header("mouse.name", "Mouse")
                     @header("company.name", "Company")
+                    
                 </tr>
             </thead>
             <tbody>
@@ -92,6 +94,9 @@
                                 @computer.discontinued.format("dd MMM yyyy")
                             }
                         </td>
+                        
+                       
+                        
                         <td>
                             @if(computer.company == null) {
                                 <em>-</em>
@@ -99,6 +104,9 @@
                                 @computer.company.name
                             }
                         </td>
+                        
+                        
+                        
                     </tr>
                 }
 
