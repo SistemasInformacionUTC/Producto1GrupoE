@@ -14,7 +14,7 @@ import javax.persistence.PersistenceException;
 /**
  * Manage a database of computers
  */
-public class HomeController  extends Controller {
+public class HomeController  extends ddddggggController {
 
     private FormFactory formFactory;
 
@@ -114,10 +114,14 @@ public class HomeController  extends Controller {
      * Handle the 'new computer form' submission 
      */
     public Result save() {
+    	Computer c1= new Computer();
         Form<Computer> computerForm = formFactory.form(Computer.class).bindFromRequest();
         if(computerForm.hasErrors()) {
             return badRequest(views.html.createForm.render(computerForm));
         }
+        c1=computerForm.get();
+        c1.id=(long) 998;
+        c1.save();
         computerForm.get().save();
         flash("success", "Computer " + computerForm.get().name + " has been created");
         return GO_HOME;

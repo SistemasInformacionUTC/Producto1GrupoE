@@ -21,7 +21,7 @@ public class Company extends com.avaje.ebean.Model {
     
     @Constraints.Required
     public String name;
-    
+    public 
     /**
      * Generic query helper for entity Company with id Long
      */
