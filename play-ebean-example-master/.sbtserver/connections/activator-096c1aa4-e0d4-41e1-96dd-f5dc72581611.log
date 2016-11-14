@@ -15300,3 +15300,8 @@ Sending msg to client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611: Background
 Sending msg to client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611: BackgroundJobLogEvent(1,LogMessage(info,	at play.api.db.evolutions.ApplicationEvolutions.<init>(ApplicationEvolutions.scala:150)))
 Sending msg to client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611: BackgroundJobLogEvent(1,LogMessage(info,	at play.api.db.evolutions.ApplicationEvolutionsProvider.get$lzycompute(EvolutionsModule.scala:53)))
 Sending msg to client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611: BackgroundJobLogEvent(1,LogMessage(info,	at play.api.db.evolutions.ApplicationEvolutionsProvider.get(EvolutionsModule.scala:53)))
+Client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611 closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611 thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,Stopping Play fork run ...)) to dead client activator-096c1aa4-e0d4-41e1-96dd-f5dc72581611

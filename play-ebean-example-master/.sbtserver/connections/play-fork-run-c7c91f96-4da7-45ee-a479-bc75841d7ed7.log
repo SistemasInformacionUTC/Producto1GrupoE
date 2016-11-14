@@ -706,3 +706,7 @@ Sending msg to client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7: Backgr
 Sending msg to client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7: BackgroundJobLogEvent(1,LogMessage(info,	at play.api.db.evolutions.ApplicationEvolutions.<init>(ApplicationEvolutions.scala:150)))
 Sending msg to client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7: BackgroundJobLogEvent(1,LogMessage(info,	at play.api.db.evolutions.ApplicationEvolutionsProvider.get$lzycompute(EvolutionsModule.scala:53)))
 Sending msg to client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7: BackgroundJobLogEvent(1,LogMessage(info,	at play.api.db.evolutions.ApplicationEvolutionsProvider.get(EvolutionsModule.scala:53)))
+Client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7 closed, java.net.SocketException: Socket closed, shutting down
+Client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7 thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-c7c91f96-4da7-45ee-a479-bc75841d7ed7
+Closing the 3740@Jessica-PC logs at Mon Nov 14 15:04:46 CET 2016, goodbye.
